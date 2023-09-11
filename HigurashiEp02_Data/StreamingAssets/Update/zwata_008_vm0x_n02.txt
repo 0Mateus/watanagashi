@@ -1,0 +1,126 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+
+	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900069", 256, TRUE);
+	OutputLine(NULL, "「残念だけど、このお話には桃太郎みたいな正義の味方は登場しないわ。」",
+		   NULL, "\"Unfortunately, there is no Momotarou or Superman in this fairy tale.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog003()
+{
+}
+
+void dialog004()
+{
+}
+
+void dialog005()
+{
+
+}
+
+void dialog006()
+{
+}
+
+void dialog007()
+{
+}
+
+void dialog008()
+{
+}
+
+void dialog009()
+{
+}
+
+void dialog010()
+{
+}
+
+void dialog011()
+{
+}
+
+void dialog012()
+{
+}
+
+void dialog013()
+{
+}
+
+void dialog014()
+{
+}
+
+void dialog015()
+{
+}
+
+void dialog016()
+{
+}
+
+void dialog017()
+{
+}
+
+void dialog018()
+{
+}
+
+void dialog019()
+{
+}
+
+void dialog020()
+{
+}
+
+void dialog021()
+{
+}
+
+void dialog022()
+{
+}
+
+void dialog023()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900207", 256, TRUE);
+	OutputLine(NULL, "「あら、ジロウさんも見たくて我慢できなくなったかしら？」",
+		   NULL, "\"Oh, Jirou-san, could you not resist seeing inside?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog024()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900217", 256, TRUE);
+	OutputLine(NULL, "「…もう。",
+		   NULL, "\"...Geez.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900218", 256, TRUE);
+	OutputLine(NULL, "いついかなる時でもフィルムを残しておかないと決定的スクープ写真なんか取れないわよ？",
+		   NULL, " You won't win any Pulitzer Prizes by not stocking enough film for any occasion, you know.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900219", 256, TRUE);
+	OutputLine(NULL, "　…仕方ないわね…。」",
+		   NULL, " ...I suppose that's it, then...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}

@@ -1,0 +1,31 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700105", 256, TRUE);
+	OutputLine(NULL, "「私たちだって税金払ってるんですけどねぇ。",
+		   NULL, "\"We're taxpayers too, you know.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700106", 256, TRUE);
+	OutputLine(NULL, "…自分のおしっこを自分で飲んでるみたいな気分ですよ。なっはっはっは…！」",
+		   NULL, " ...It's like we're drinking our own piss. Na-ha-ha-ha-ha...!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+}
+
+void dialog003()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100737", 256, TRUE);
+	OutputLine(NULL, "「そんなの、俺にとってだってさっぱりです。」",
+		   NULL, "\"I don't know anything about it either.\"", Line_Normal);
+}

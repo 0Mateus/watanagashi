@@ -1,0 +1,80 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei34750", 256, TRUE);
+	OutputLine(NULL, "「バスト９０以上。",
+		   NULL, "\"One with a bust size of at least 90.", Line_Continue);
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei34760", 256, TRUE);
+	OutputLine(NULL, "お触りＯＫのボインボイン。」",
+		   NULL, " Huge knockers that you're okay with me touching.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+}
+
+void dialog003()
+{
+}
+
+void dialog004()
+{
+}
+
+void dialog005()
+{
+}
+
+void dialog006()
+{
+}
+
+void dialog007()
+{
+}
+
+void dialog008()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800072", 256, TRUE);
+	OutputLine(NULL, "「よそ者を嫌う村、ってよく金田一の小説に出てくるだろ。",
+		   NULL, "\"Villages that hate outsiders come up all the time in Kindaichi novels.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800073", 256, TRUE);
+	OutputLine(NULL, "典型的なそういう村だったらしいんだよ。」",
+		   NULL, " This was once a classic example of a xenophobic village.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog009()
+{
+}
+
+void dialog010()
+{
+}
+
+void dialog011()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800106", 256, TRUE);
+	OutputLine(NULL, "「その翌年には…何だっけ、ダム推進派の男の弟夫婦の奥さんだっけ？",
+		   NULL, "\"And the next year... what was it, the dam proponent's sister-in-law?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800107", 256, TRUE);
+	OutputLine(NULL, "　が殺されたんだよな。",
+		   NULL, " She was killed.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……この事件でも誰かが消え、」",
+		   NULL, " ......And the same way, someone disa—\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
