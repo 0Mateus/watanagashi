@@ -12,11 +12,11 @@ void dialog001()
 
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/990400171", 256, TRUE);
 	OutputLine(NULL, "「圭々がいじめたぁあぁあ！！！",
-		   NULL, "\"Kei-kei is bullying meeeeeEEeee!!!", Line_WaitForInput);
+		   NULL, "\"Kei-kei está me maltratando!!!!!!", Line_WaitForInput);
 
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/990400172", 256, TRUE);
 	OutputLine(NULL, "　わぁああぁああぁあああぁあんッ！！！」",
-		   NULL, " WaaaaaaAAaaaAAAaaa!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " BuaaaaaaAAaaaAAAaaa!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -25,11 +25,11 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300411", 256, TRUE);
 	OutputLine(NULL, "「みんないいかな〜？！",
-		   NULL, "\"Is everybody ready~?!", Line_WaitForInput);
+		   NULL, "\"Todos estão prontos~?!", Line_WaitForInput);
 
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300412", 256, TRUE);
 	OutputLine(NULL, "　傾注傾注〜！！」",
-		   NULL, " Listen close now~!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Escutem todos, agora~!!\"", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
@@ -44,7 +44,7 @@ void dialog004()
 
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300473", 256, TRUE);
 	OutputLine(NULL, "「圭ちゃんが持ってたら、確実に明日から変態扱いだね。うん！」",
-		   NULL, "\"If you walked around with it, then you'd be treated like a weirdo starting tomorrow. Definitely!\"", Line_Normal);
+		   NULL, "\"Se você andar com ela por aí, então você será tratado como um esquisitão a partir de amanhã. Com certeza!\"", Line_Normal);
 
 	ClearMessage();
 }
@@ -54,7 +54,7 @@ void dialog005()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 
 	OutputLine(NULL, "　百万長者ゲーム。",
-		   NULL, "It was a game called \"Billionaire.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Era chamado \"Jogo da Vida.\"", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
@@ -62,7 +62,7 @@ void dialog005()
 void dialog006()
 {
 	OutputLine(NULL, "美少女！！",
-		   NULL, " Pretty girls!!", Line_Continue);
+		   NULL, " Lindas garotas!!", Line_Continue);
 
 	PlaySE( 3, "wa_011", 56, 64 );
 	OutputLineAll(NULL, "", Line_WaitForInput);
