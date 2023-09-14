@@ -1065,7 +1065,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei08890", 256, TRUE);
 	OutputLine(NULL, "「おーぅ！",
-		   NULL, "\"Ei!", Line_WaitForInput);
+		   NULL, "\"Hei!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei08900", 256, TRUE);
 	OutputLine(NULL, "　おはよう梨花ちゃん！",
 		   NULL, " Bom dia, Rika-chan!", Line_WaitForInput);
