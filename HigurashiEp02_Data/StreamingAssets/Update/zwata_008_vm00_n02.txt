@@ -16,7 +16,7 @@ void dialog002()
 
 	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900069", 256, TRUE);
 	OutputLine(NULL, "「残念だけど、このお話には桃太郎もスーパーマンも登場しないわ。」",
-		   NULL, "\"Unfortunately, there is no Momotarou or Superman in this fairy tale.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Infelizmente, não existe Momotarou ou Superman neste conto de fadas.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -105,10 +105,10 @@ void dialog023()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano1093", 256, TRUE);
 	OutputLine(NULL, "「あら、ジロウさんも見たくて我慢できなくなったかしら？",
-		   NULL, "\"Oh, Jirou-san, could you not resist seeing inside?", Line_Continue);
+		   NULL, "\"Oh, Jirou-san, você não pode resistir e resolveu entrar?", Line_Continue);
 	ModPlayVoiceLS(4, 9, "org/takano1094", 256, TRUE);
 	OutputLine(NULL, "　……ここ、素敵な拷問道具の宝庫よ。」",
-		   NULL, " ...This is a splendid treasure trove of torture devices.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Este é um esplêndido tesouro de dispositivos de tortura.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -117,12 +117,12 @@ void dialog024()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900217", 256, TRUE);
 	OutputLine(NULL, "「…もう。",
-		   NULL, "\"...Geez.", Line_WaitForInput);
+		   NULL, "\"...Ora.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900218", 256, TRUE);
 	OutputLine(NULL, "いついかなる時でもフィルムを残しておかないとピューリッツァーなんか取れないわよ？",
-		   NULL, " You won't win any Pulitzer Prizes by not stocking enough film for any occasion, you know.", Line_WaitForInput);
+		   NULL, " Você não vai ganhar nenhum prêmio Pulitzer se não estocar filme suficiente para todas as ocasiões, sabe.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900219", 256, TRUE);
 	OutputLine(NULL, "　…仕方ないわね…。」",
-		   NULL, " ...I suppose that's it, then...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Acho que é isso, então...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
