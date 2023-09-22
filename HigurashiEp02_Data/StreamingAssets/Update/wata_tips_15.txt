@@ -111,6 +111,7 @@ void main()
 
 //　オヤシロさまの声を代弁する唯一の存在として、長く崇められてきたが、戦争で分家筋がほとんど絶え、今では本家のみとなっている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	OutputLine(NULL, "　オヤシロさまの声を代弁する唯一の存在として、長く崇められてきたが、戦争で分家筋がほとんど絶え、今では本家のみとなっている。",
 		   NULL, "Eles eram adorados como as únicas pessoas que representavam a voz de Oyashiro-sama por um longo tempo, mas a família ramificou-se depois da guerra e perdeu a maior parte de seu poder. Ela consiste agora somente da casa principal.", Line_Normal);
 	ClearMessage();
