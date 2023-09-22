@@ -23,7 +23,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "＜綿流しの意義について＞",
-		   NULL, "<The Significance of Watanagashi>", Line_Normal);
+		   NULL, "<O Significado do Watanagashi>", Line_Normal);
 	ClearMessage();
 
 	SetStyleOfMessageSwinging( 0 );
@@ -76,7 +76,7 @@ void main()
 //　女子供は蒼白になりながら震え、血に弱い者は嘔吐しながらも、それでもなお、宴（解体作業）を見ることを強要されたのだと言う￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　女子供は蒼白になりながら震え、血に弱い者は嘔吐しながらも、それでもなお、宴（解体作業）を見ることを強要されたのだと言う。",
-		   NULL, "Mulheres e crianças ficavam pálidas e trêmulas, e os indivíduos de constituição fraca chegavam a vomitar - mas dizem que a festa (a dissecação) era uma visão obrigatória.", Line_Normal);
+		   NULL, "Mulheres e crianças ficavam pálidas e trêmulas, e os indivíduos de constituição fraca chegavam a vomitar—mas dizem que a festa (a dissecação) era uma visão obrigatória.", Line_Normal);
 	ClearMessage();
 	PlaySE( 3, "wa_021", 56, 64 );
 
