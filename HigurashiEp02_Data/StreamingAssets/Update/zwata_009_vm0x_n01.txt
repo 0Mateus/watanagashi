@@ -14,7 +14,7 @@ void dialog001()
 		   NULL, "\"Hm?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300100", 256, TRUE);
 	OutputLine(NULL, "　…あはははは、実は内緒なんだけど…、昨日はお祭りのあとで親族の宴会に巻き込まれちゃってさ。",
-		   NULL, " ...Ahahahaha. Actually, this is a secret, but... after the festival yesterday, I got wrapped up in the party my relatives were having.", Line_WaitForInput);
+		   NULL, " ...Ahahahaha. Na verdade, é segredo, mas... depois do festival de ontem, eu fiquei envolvida com a festa que meus parentes estavam fazendo.", Line_WaitForInput);
 
 	DisableWindow();
 	ModSetLayerFilter(2, 256, "none");
@@ -23,32 +23,32 @@ void dialog001()
 //それで...チョイっと。￥
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300101", 256, TRUE);
 	OutputLine(NULL, "それで…実はエンドレスに突入しちゃって。」",
-		   NULL, " And well... things dragged on a while.\"", Line_Normal);
+		   NULL, " E bem... as coisas se prolongaram um pouco.\"", Line_Normal);
 	ClearMessage();
 
 //　チョイっと＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　エンドレス。",
-		   NULL, "Things dragged on?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se prolongaram?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　コップを傾けるようなジェスチャー＠......ってことはお前、風邪なんじゃなくて...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　日本語に直すと連続。",
-		   NULL, "So, you mean to say...", Line_WaitForInput);
+		   NULL, "Então, você quer dizer que...", Line_WaitForInput);
 	OutputLine(NULL, "……ってことはお前、風邪なんじゃなくて…、",
-		   NULL, " ...You didn't have a cold or anything...", Line_Normal);
+		   NULL, " ...Você não está resfriada nem nada do tipo...", Line_Normal);
 	ClearMessage();
 
 //「ふ、二日酔いかよー？＠　お前、歳はいくつだー！！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100233", 256, TRUE);
 	OutputLine(NULL, "「つまりホントに、寝不足なのかよー？！",
-		   NULL, "\"So you really are just tired?!", Line_WaitForInput);
+		   NULL, "\"E-Então você está apenas cansada?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100234", 256, TRUE);
 	OutputLine(NULL, "　徹夜明けならそうと言え、まぎらわしい……」",
-		   NULL, " If you were up all night, just say so! That was confusing...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se você passou a noite acordada, bastava dizer. Não deixe as pessoas confusas...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -56,25 +56,25 @@ void dialog002()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…確かに体調が悪いのは同じだろうが。",
-		   NULL, "...I suppose she'd be feeling lousy either way.", Line_WaitForInput);
+		   NULL, "...Eu estava supondo que ela estava se sentindo mal por outro motivo.", Line_WaitForInput);
 	OutputLine(NULL, "風邪と徹夜明けじゃ、その扱いは全然違うぞ。",
-		   NULL, " Still, you treat colds and sleep deprivation in completely different ways.", Line_Normal);
+		   NULL, " Ainda assim, você trata resfriados e ressacas de maneiras completamente diferentes.", Line_Normal);
 }
 
 void dialog003()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…確かに具合は悪そうだが、寝不足だとわかればそんなに心配はいらない。",
-		   NULL, "...She didn't seem to be feeling well, but now that I knew the cause, I didn't need to worry too much.", Line_WaitForInput);
+		   NULL, "...Ela não parecia estar se sentindo bem, mas agora que eu sabia o motivo, eu não precisava me preocupar muito.", Line_WaitForInput);
 	OutputLine(NULL, "ちょっと休めば快調に向かうんだからな。",
-		   NULL, " It would go away with a little rest, after all.", Line_Normal);
+		   NULL, " Afinal, era apenas questão de tempo para passar.", Line_Normal);
 }
 
 void dialog004()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…姉は徹夜明けで眠そうだったのに、妹の方はケロッとしている。",
-		   NULL, "...The older sister shattered from an all nighter, but the younger seemed fine.", Line_Normal);
+		   NULL, "...A irmã mais velha ficou exausta por ficar acordada a noite toda, mas a mais nova parecia estar bem.", Line_Normal);
 }
 
 void dialog005()
@@ -85,7 +85,7 @@ void dialog005()
 		   NULL, "\"Shion?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100268", 256, TRUE);
 	OutputLine(NULL, "魅音と同じで、今日は徹夜明けで寝込んでるんじゃないかと思ったぜ。」",
-		   NULL, " I thought you'd be catching up on your sleep today, same as Mion.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Achei que você estaria dormindo hoje, assim como Mion.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -94,13 +94,13 @@ void dialog006()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600153", 256, TRUE);
 	OutputLine(NULL, "「え？",
-		   NULL, "\"What?", Line_WaitForInput);
+		   NULL, "\"O quê?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600154", 256, TRUE);
 	OutputLine(NULL, "　それじゃお姉、今日はズル休みですか？",
-		   NULL, " Is Mion playing truant today?", Line_WaitForInput);
+		   NULL, " Mion está faltando às aulas hoje?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600155", 256, TRUE);
 	OutputLine(NULL, "　あっはははははは！　お姉らし〜〜！」",
-		   NULL, " Ah-hahahaha! That's so like her~~!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ah-hahahaha! Isso é tão do jeito dela~~!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 
@@ -108,9 +108,9 @@ void dialog007()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　詩音も、何となくふらふらなような。",
-		   NULL, "Shion seemed a little unsteady too.", Line_WaitForInput);
+		   NULL, "Shion pareceu um pouco instável demais.", Line_WaitForInput);
 	OutputLine(NULL, "…こいつも魅音同様、今日は徹夜明けだな？",
-		   NULL, " ...She was up all night with Mion, wasn't she?", Line_Normal);
+		   NULL, " ...Ela ficou à noite toda acordada com Mion, não ficou?", Line_Normal);
 }
 
 void dialog008()
@@ -134,5 +134,5 @@ void dialog012()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100231", 256, TRUE);
 	OutputLine(NULL, "「…魅音、具合の方はいいのかよ。",
-		NULL, "\"...Mion, how is your cold doing?", Line_WaitForInput);
+		NULL, "\"...Mion, como você está com seu resfriado?", Line_WaitForInput);
 }
