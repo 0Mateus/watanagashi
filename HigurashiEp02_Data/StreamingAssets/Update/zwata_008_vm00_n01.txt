@@ -21,7 +21,7 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "",
-		NULL, "(*) Publicado pela fabricante de pneus Michelin, o Guia Vermelho Michelin é um famosíssimo guia de avaliação de hotéis e restaurantes, publicado em diversos países, dando uma avaliação de uma a três estrelas aos estabelecimentos visitados (seus inspetores fazem visitas anônimas).", Line_Normal);
+		NULL, "(*) Publicado pela fabricante de pneus Michelin, o Guia Vermelho Michelin é um famosíssimo guia de avaliação de hotéis e restaurantes, publicado em diversos países, dando uma avaliação de uma a três estrelas aos estabelecimentos visitados (seus inspetores fazem visitas anônimas).", GetGlobalFlag(GLinemodeSp));
 	}
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
