@@ -32,21 +32,21 @@ void main()
 //　犠牲者を狩り、それを食す宴、綿流し＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犠牲者を狩り、それを食す宴、綿流し。",
-		   NULL, "Watanagashi—a festival of hunting for sacrifices and feasting on them.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O Significado do Watanagashi—um festival para caçar sacrifícios e devorá-los.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　それ自体は異常なものでありながらも、同時に娯楽性を伴うものだと考えられてきた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それ自体は異常なものでありながらも、同時に娯楽性を伴うものだと考えられてきた。",
-		   NULL, "While the festival itself is remarkable, it has come to be considered a form of entertainment as well.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Enquanto o festival em si mesmo é notável, ele também pode ser considerado uma forma de entretenimento.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //（異常な行為に娯楽性を感じるという「無理」によって、自分たちが人間を超越した存在だと信じこもうとしたのかもしれない。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（異常な行為に娯楽性を感じるという「無理」によって、自分たちが人間を超越した存在だと信じこもうとしたのかもしれない。）",
-		   NULL, "(Perhaps it was because of the disparity between being both an egregious act and a form of entertainment that the perpetrators began to believe themselves transcendent.)", Line_Normal);
+		   NULL, "(Talvez por causa da disparidade entre seus atos terríveis e, ao mesmo tempo, uma forma de entretenimento, os autores começaram a ver a si mesmos como transcendentes à humanidade.)", Line_Normal);
 	ClearMessage();
 
 
@@ -55,51 +55,51 @@ void main()
 //　だが、その説に一石を投じる興味深い文献を見つけた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、その説に一石を投じる興味深い文献を見つけた。",
-		   NULL, "However, I found some very interesting literature that appears to raise questions about that explanation.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No entanto, eu encontrei uma literatura muito interessante que parece levantar dúvidas sobre essa explicação.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　口伝らしく、鵜呑みにできるものではなさそうだが、その内容は少し興味を惹く＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　口伝らしく、鵜呑みにできるものではなさそうだが、その内容は少し興味を惹く。",
-		   NULL, "As with most oral traditions, it's not easily swallowed, but it does mention a few things that spark my interest.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Como a maioria das tradições orais, não pode ser facilmente engolido, mas vale mencionar algumas coisas que despertaram meu interesse.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　それによると、鬼ヶ淵村の住人にも、この儀式を「恐れる」感情があったと言うのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それによると、鬼ヶ淵村の住人にも、この儀式を「恐れる」感情があったと言うのだ。",
-		   NULL, "According to this literature, even the residents of Onigafuchi Village felt fear towards this ritual.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "De acordo com esta literatura, até mesmo os moradores da vila de Onigafuchi sentiam medo em relação a este ritual.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　女子供は蒼白になりながら震え、血に弱い者は嘔吐しながらも、それでもなお、宴（解体作業）を見ることを強要されたのだと言う￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　女子供は蒼白になりながら震え、血に弱い者は嘔吐しながらも、それでもなお、宴（解体作業）を見ることを強要されたのだと言う。",
-		   NULL, "Women and children would grow pale and tremble, and those of weak constitution would vomit—but it said that the feast (the dissection) was an obligatory viewing.", Line_Normal);
+		   NULL, "Mulheres e crianças ficavam pálidas e trêmulas, e os indivíduos de constituição fraca chegavam a vomitar - mas dizem que a festa (a dissecação) era uma visão obrigatória.", Line_Normal);
 	ClearMessage();
 	PlaySE( 3, "wa_021", 56, 64 );
 
 //　これは非常に面白い異聞だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これは非常に面白い異聞だ。",
-		   NULL, "This is an extremely curious tale.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Este é um conto extremamente curioso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　私はこれまで、鬼ヶ淵村の住人は綿流しの儀式にある種の陶酔を得ていると考えてきた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はこれまで、鬼ヶ淵村の住人は綿流しの儀式にある種の陶酔を得ていると考えてきた。",
-		   NULL, "Until now, I'd thought that the residents of Onigafuchi Village were fascinated by the Watanagashi ritual.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Até agora, eu pensava que os moradores da vila de Onigafuchi tinham fascínio pelo ritual do Watanagashi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　自分たちが見下す「卑しい人間風情」を魚を下ろすように解体し＠それを食すことによって自分たちの神聖性を確認してきた、...そう考えてきた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分たちが見下す「卑しい人間風情」を魚を下ろすように解体し、",
-		   NULL, "They looked down on those vulgar, barbaric humans, cut them open like fish,", Line_WaitForInput);
+		   NULL, "Eles olhavam altivamente para baixo, sobre os seres humanos bárbaros e vulgares, mantendo-os abertos como peixes,", Line_WaitForInput);
 	OutputLine(NULL, "それを食すことによって自分たちの神聖性を確認してきた、…そう考えてきた。",
-		   NULL, " and by eating them, they reaffirmed their own holiness... at least, that's what I thought.", Line_Normal);
+		   NULL, " e através do ato de comê-los, eles reafirmavam a sua própria santidade... pelo menos, isso é o que eu pensava.", Line_Normal);
 	ClearMessage();
 
 
@@ -108,28 +108,28 @@ void main()
 //　だが、この儀式によって村人が得ていたものが陶酔でなく恐怖だったとすると、儀式の意味するところは大きく変わってしまう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、この儀式によって村人が得ていたものが陶酔でなく恐怖だったとすると、儀式の意味するところは大きく変わってしまう。",
-		   NULL, "However, if what the villagers gained from this ritual was not fascination, but fear, then that would suggest the ritual meant something entirely different.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No entanto, se o que os moradores da vila sentiam a partir deste ritual não era fascínio, mas medo, então isso sugeria que o ritual significava algo completamente diferente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　つまり、有力者たちが自分たちの都合のいいように組み上げた戒律を厳守させるために催した、見せしめ処刑だった可能性が出てくる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、有力者たちが自分たちの都合のいいように組み上げた戒律を厳守させるために催した、見せしめ処刑だった可能性が出てくる。",
-		   NULL, "There's the possibility that the executions were meant as warnings, encouraging the villagers to strictly follow religious precepts created by those with power for their own convenience.", Line_Normal);
+		   NULL, "Existe a possibilidade de que as execuções fossem feitas como uma advertência, incentivando os moradores a seguir rigorosamente os preceitos religiosos criados por aqueles com poder para sua própria conveniência.", Line_Normal);
 	ClearMessage();
 	PlaySE( 3, "wa_021", 56, 64 );
 
 //　鬼ヶ淵村を実効支配してきたのは御三家と呼ばれる３つの旧家だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼ヶ淵村を実効支配してきたのは御三家と呼ばれる３つの旧家だ。",
-		   NULL, "Onigafuchi Village has been effectively ruled over by three old families, called the Three Families.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A vila de Onigafuchi era efetivamente governada por três famílias antigas, chamadas de As Três Famílias.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　この御三家の研究なくして、鬼ヶ淵村の真実には迫れまい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この御三家の研究なくして、鬼ヶ淵村の真実には迫れまい。",
-		   NULL, "Without investigating the Three Families, I probably won't get any closer to the truth of Onigafuchi Village.", Line_Normal);
+		   NULL, "Sem investigar As Três Famílias, eu provavelmente não vou conseguir chegar mais perto da verdade sobre a vila de Onigafuchi.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	SetValidityOfInput( FALSE );
