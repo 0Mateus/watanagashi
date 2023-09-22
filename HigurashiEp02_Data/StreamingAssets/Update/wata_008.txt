@@ -249,7 +249,7 @@ void main()
 	OutputLine(NULL, "　神社へ近付くにつれ、人通りが多くなり、たくさんの停めてある車が目に付くようになる。",
 		   NULL, "À medida que nos aproximávamos do santuário, nós começamos a passar por mais pessoas e vimos um monte de carros estacionados.", Line_WaitForInput);
 	OutputLine(NULL, "にぎわいも大きくなり…盆踊りの曲みたいのも聞こえるようになる。",
-		   NULL, " Também começou a ficar barulhento... Acho que eu podia mesmo ouvir uma canção de dança de bon. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Também começou a ficar barulhento... Acho que eu podia mesmo ouvir uma canção de dança de bon.", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GLanguage) == 1) {
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -5322,7 +5322,7 @@ void main()
 //　鬼の持つ様々な知識や秘法を持った人間たちは、もはやただの人間ではなく、仙人と呼ばれるべき存在だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼の持つ様々な知識や秘法を持った人間たちは、もはやただの人間ではなく、仙人と呼ばれるべき存在だ。",
-		   NULL, "O conhecimento que os moradores tinham recebido dos demônios basicamente os transformou em algo não-humano—o que as pessoas chamam de 'sen'nin.' ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O conhecimento que os moradores tinham recebido dos demônios basicamente os transformou em algo não-humano—o que as pessoas chamam de 'sen'nin.'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GLanguage) == 1) {
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
