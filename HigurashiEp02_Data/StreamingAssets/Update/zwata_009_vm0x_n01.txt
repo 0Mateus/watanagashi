@@ -58,7 +58,7 @@ void dialog002()
 	OutputLine(NULL, "　…確かに体調が悪いのは同じだろうが。",
 		   NULL, "...Eu estava supondo que ela estava se sentindo mal por outro motivo.", Line_WaitForInput);
 	OutputLine(NULL, "風邪と徹夜明けじゃ、その扱いは全然違うぞ。",
-		   NULL, " Ainda assim, você trata resfriados e ressacas de maneiras completamente diferentes.", Line_Normal);
+		   NULL, " Ainda assim, você trata resfriados e cansaço de maneira completamente diferente.", Line_Normal);
 }
 
 void dialog003()
