@@ -11,20 +11,20 @@ void dialog001()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…お出掛け？",
-		   NULL, "\"...Going somewhere?", Line_WaitForInput);
+		   NULL, "\"...A algum lugar?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100430", 256, TRUE);
 	OutputLine(NULL, "　……うん。",
-		   NULL, " ...Yeah.", Line_WaitForInput);
+		   NULL, " ...Sim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100431", 256, TRUE);
 	OutputLine(NULL, "…学校に。」",
-		   NULL, " ...To school.\"", Line_Normal);
+		   NULL, " ...À escola.\"", Line_Normal);
 }
 
 void dialog002()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…昨日、二日酔いで早退した魅音だが、今朝も具合は優れないのだろうか。",
-		   NULL, "...Mion had gone home early yesterday with a hangover, but she didn't look too good this morning, either.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Mion tinha ido para casa mais cedo ontem com uma ressaca, mas ela também não parecia muito bem esta manhã.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -33,13 +33,13 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100434", 256, TRUE);
 	OutputLine(NULL, "「さ、３時ぃ？！",
-		   NULL, "\"Th-Three?!", Line_WaitForInput);
+		   NULL, "\"T-Três?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100435", 256, TRUE);
 	OutputLine(NULL, "　おいおい、…夜更かしにも限度ってもんがあるぞ？！",
-		   NULL, " Hey, now... You can't keep staying up late!", Line_WaitForInput);
+		   NULL, " Ei, ei... Você não deve ficar acordada até tão tarde!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100436", 256, TRUE);
 	OutputLine(NULL, "　大方、漫画の単行本が面白くなっちゃって、１巻から読破してしまったんだろう。",
-		   NULL, " You probably read the first volume of a manga, thought it was interesting, then read the entire series, didn't you? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você provavelmente leu o primeiro volume de um mangá, pensou que era interessante, e então leu toda a série, não é? ", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog004()
@@ -47,7 +47,7 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200129", 256, TRUE);
 	OutputLine(NULL, "「ののののの、のどちん、ゆらゆら〜〜〜！　はぅ〜〜〜〜！！！！」",
-		   NULL, "\"H-H-H-H-H-Her throat, the thing in her throat, all wobbly~~~! Hau~~~~!!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"A-A-A-A-A-A garganta, a coisa no fundo da garganta dela, se mexendo~~~! Hau~~~~!!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -56,10 +56,10 @@ void dialog005()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200130", 256, TRUE);
 	OutputLine(NULL, "「りりり梨花ちゃんのだけじゃなく、沙都子ちゃんのもかぁいいと思うぉ〜！！",
-		   NULL, "\"I-I-I-I think Satoko-chan is kyute, not only R-Rika-chan~!!", Line_WaitForInput);
+		   NULL, "\"E-E-E-Eu também acho que a de Satoko-chan é mEiGA, não apenas R-Rika-chan~!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200131", 256, TRUE);
 	OutputLine(NULL, "　の〜ど〜ち〜んん〜〜！！！」",
-		   NULL, " U~vu~la~~!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A ú~vu~la~~!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -71,15 +71,15 @@ void dialog006()
 		   NULL, "\"H-Hau~~!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200133", 256, TRUE);
 	OutputLine(NULL, "　ちらっと見えた、かぁいいの見えた！！",
-		   NULL, " I got a glimpse! It was so kyute!!", Line_WaitForInput);
+		   NULL, " Eu tive um vislumbre! Tão mEiGA!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200134", 256, TRUE);
 	OutputLine(NULL, "　沙都子ちゃんのもかぁいい、お持ち帰り〜〜！！！！」",
-		   NULL, " Satoko-chan's is kyute too! I'm gonna take you home~~!!!!\"", Line_Normal);
+		   NULL, " Satoko-chan é tão mEiGA! Eu vou levá-la para casa~~!!!!\"", Line_Normal);
 	ClearMessage();
 
 //　...レナが沙都子の首根っこを締め上げて、喉の奥を覗き込もうとしている...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…レナが沙都子の首根っこを締め上げて、喉の奥を覗き込もうとしている…。",
-		   NULL, "...Rena was squeezing her hands around Satoko's neck and was trying to get a look into her throat...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Rena estava apertando as mãos em torno do pescoço de Satoko, tentando olhar a garganta dela...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
