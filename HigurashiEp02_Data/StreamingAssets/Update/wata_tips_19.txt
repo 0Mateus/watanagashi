@@ -23,7 +23,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "＜園崎家について＞",
-		   NULL, "<The Sonozaki Family>", Line_Normal);
+		   NULL, "<A Família Sonozaki>", Line_Normal);
 	ClearMessage();
 
 	SetStyleOfMessageSwinging( 0 );
@@ -32,14 +32,14 @@ void main()
 //　戦後、急激に勢力を広げたのが園崎家である＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　戦後、急激に勢力を広げたのが園崎家である。",
-		   NULL, "The one to drastically expand its influence after the war was the Sonozaki family.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A única a expandir dramaticamente sua influência depois da guerra foi a família Sonozaki.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　その時の当主が、今日でもその座にある園崎お魎（おりょう）である￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時の当主が、今日でもその座にある園崎お魎（おりょう）である。",
-		   NULL, "The leader at the time was Oryou Sonozaki, who still has that seat today.", Line_Normal);
+		   NULL, "A líder do grupo era Sonozaki Oryou, que ainda está no cargo hoje em dia.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -47,7 +47,7 @@ void main()
 //　園崎お魎も高齢で、今日では当時の片鱗を見ることもかなわない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎お魎も高齢で、今日では当時の片鱗を見ることもかなわない。",
-		   NULL, "Oryou Sonozaki has grown old, and today you can only catch a glimpse of who she was at the time.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sonozaki Oryou envelheceu, e hoje você só pode ter um vislumbre de como ela era em sua época.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -55,21 +55,21 @@ void main()
 //　だが、伝え聞く話では歴代当主の中で最高と讃えられる名当主だったらしい＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、伝え聞く話では歴代当主の中で最高と讃えられる名当主だったらしい。",
-		   NULL, "From what I've been told, however, she was a leader extolled as the best in history.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pelo que me disseram, no entanto, ela foi exaltada como a melhor líder da história deles.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　すでに高齢で、週に何回かの習い事に出掛ける以外は自宅で静かに過ごしており、セレモニー的なものは跡継ぎである魅音に委ねることが多いようである＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すでに高齢で、週に何回かの習い事に出掛ける以外は自宅で静かに過ごしており、セレモニー的なものは跡継ぎである魅音に委ねることが多いようである。",
-		   NULL, "Having become so old, aside from going out a few times a week for lessons, she spends her time at home in solitude, and seems to leave most of the ceremonial affairs to her heir, Mion.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tendo ficado tão velha, além de sair para fora apenas algumas vezes por semana para ter aulas, ela gasta sozinha seu tempo em casa, e parece deixar a maior parte dos assuntos cerimoniais para a herdeira, Mion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //（なぜ当主の跡継ぎが娘でなく、孫娘である魅音なのかは諸説があるが、娘夫婦の勘当騒ぎが絡んでいると噂されている。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（なぜ当主の跡継ぎが娘でなく、孫娘である魅音なのかは諸説があるが、娘夫婦の勘当騒ぎが絡んでいると噂されている。）",
-		   NULL, "(There are different views on why the successor was not her daughter, but her granddaughter Mion, but it's rumored that it has to do with disownment of her daughter and son-in-law).", Line_Normal);
+		   NULL, "(Há opiniões diferentes sobre por que a sucessora escolhida não foi sua filha, mas sua neta, Mion, mas há rumores de que tem a ver com o deserdamento de sua filha e seu genro).", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -77,17 +77,17 @@ void main()
 //　園崎魅音という奔放な娘に、まだ次代当主としての貫禄は見られない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎魅音という奔放な娘に、まだ次代当主としての貫禄は見られない。",
-		   NULL, "That uninhibited granddaughter, Mion Sonozaki, still shows no signs of the dignity required of the next leader.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Essa neta desinibida, Sonozaki Mion, ainda não mostra os sinais de dignidade exigidos da próxima líder.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　だが、園崎家の血を引き、鬼の名を許される以上＠恐らくは巧みに爪と牙を隠す、（過去の当主たちと同様）油断ならぬ人物であるに違いあるまい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、園崎家の血を引き、鬼の名を許される以上、",
-		   NULL, "However, she does have Sonozaki blood in her veins, and is permitted the name of 'demon.' ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No entanto, ela tem o sangue Sonozaki em suas veias, e lhe é permitido usar o nome de 'demônio.' ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "恐らくは巧みに爪と牙を隠す、（過去の当主たちと同様）油断ならぬ人物であるに違いあるまい。",
-		   NULL, "She still doubtlessly requires caution, and is probably hiding her fangs and claws (as skillfully as the leaders of the past did).", Line_Normal);
+		   NULL, "Ela ainda exige, sem dúvida, cautela, e está provavelmente escondendo suas presas e garras (tão habilidosamente quantos os líderes do passado o fizeram).", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	SetValidityOfInput( FALSE );
