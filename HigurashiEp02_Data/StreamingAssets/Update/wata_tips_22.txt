@@ -228,7 +228,7 @@ void main()
 		   NULL, "\"Um forte candidato seria qualquer coisa apontando conexões da família Sonozaki com organizações violentas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi1904", 256, TRUE);
 	OutputLine(NULL, "トカレフの山か、ケシの密造工場か。",
-		   NULL, " Como uma pilha de Tokarevs ou uma instalação secreta de produção de papoula. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Como uma pilha de Tokarevs ou uma fábrica secreta de produção de ópio. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "org/ooishi1905", 256, TRUE);
 	OutputLine(NULL, "園崎家の隠し資産ってのも捨てがたい辺りです。」",
