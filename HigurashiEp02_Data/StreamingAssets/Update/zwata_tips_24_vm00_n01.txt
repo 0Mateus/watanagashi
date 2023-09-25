@@ -11,12 +11,17 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700188", 256, TRUE);
 	OutputLine(NULL, "「いつもそうですが、事件と車のキーの閉じ込めはよく似てます。",
-		   NULL, "\"This always happens, but incidents are a lot like locking your keys in the car.", Line_Continue);
+		   NULL, "\"Isso sempre acontece, mas os incidentes são muito parecidos com carros trancados.", Line_Continue);
 	OutputLine(NULL, "開けるためのカギはいつもその中に閉じ込められているんです。",
-		   NULL, " The keys you need to unlock the door are always locked inside.", Line_WaitForInput);
+		   NULL, " As chaves que você precisa para abrir a porta estão sempre do lado de dentro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700189", 256, TRUE);
 	OutputLine(NULL, "車ならＪＡＦを呼んで扉をこじ開ける。",
-		   NULL, " For cars, you call the JAF and they'll pry open your door. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Para os carros, você chama o JAF, e eles vão arrombar a porta. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GLanguage) == 1) {
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "",
+		NULL, "(*) Japan Automobile Federation. ", GetGlobalFlag(GLinemodeSp));
+	}
 }
 
 void dialog002()
