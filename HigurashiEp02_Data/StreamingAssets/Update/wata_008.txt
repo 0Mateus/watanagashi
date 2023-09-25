@@ -9288,7 +9288,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600144", 256, TRUE);
 	OutputLine(NULL, "「圭ちゃんも鷹野さんも、全然、意にも介さない風だったので、…私も聞こえないフリをずっとしてましたけど…。",
-		   NULL, "\"Você e Takano-san não estavam prestando nenhuma atenção a ele, então ... eu fingi não ouvir nada, mas...", Line_WaitForInput);
+		   NULL, "\"Você e Takano-san não estavam prestando nenhuma atenção a ele, então... eu fingi não ouvir nada, mas...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600145", 256, TRUE);
 	OutputLine(NULL, "…聞こえましたよね？",
 		   NULL, " ...Você ouviu, certo?", Line_WaitForInput);

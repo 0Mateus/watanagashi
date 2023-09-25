@@ -496,7 +496,7 @@ void main()
 		   NULL, "\"B-Bem... Não se preocupe.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100532", 256, TRUE);
 	OutputLine(NULL, "……少なくとも…俺の方は大丈夫だ。」",
-		   NULL, " ......Pelo menos ... Tudo tem estado bem para mim.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......Pelo menos... Tudo tem estado bem para mim.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

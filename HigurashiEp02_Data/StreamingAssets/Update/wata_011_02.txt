@@ -3295,7 +3295,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…さらわれて…どうなったと思う…？",
-		   NULL, " ...O que você acha que aconteceu ... depois que ele foi raptado...?", Line_WaitForInput);
+		   NULL, " ...O que você acha que aconteceu... depois que ele foi raptado...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100870", 256, TRUE);
 	OutputLine(NULL, "　まだ……生きてるんだろうか…？」",
 		   NULL, " Você acha que... ele ainda está vivo...?\"", GetGlobalFlag(GLinemodeSp));
