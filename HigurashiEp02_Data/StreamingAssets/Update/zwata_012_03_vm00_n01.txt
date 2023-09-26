@@ -23,12 +23,12 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300712", 256, TRUE);
 	OutputLine(NULL, "「…………見たことないでしょ。",
-		   NULL, "\"......You've probably never seen one before, right?", Line_WaitForInput);
+		   NULL, "\"......Você provavelmente nunca viu um destes, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300713", 256, TRUE);
 	OutputLine(NULL, "本物のスタンガンだよ。",
-		   NULL, " It's a real stun gun.", Line_WaitForInput);
+		   NULL, " Esta coisa é uma arma de choque.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps2/03/130300714", 540, TRUE);
 	OutputLine(NULL, "…違法品なんでかなり出力が上げられるようになってるけどね。」",
-		   NULL, " ...It's illegal, and its output has been increased quite a bit.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...É ilegal, e sua potência foi aumentada um pouco.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
