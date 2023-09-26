@@ -11,23 +11,24 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700414", 256, TRUE);
 	OutputLine(NULL, "「前原さんの好みがわからなかったので、いろいろと持ってきましたよ〜。",
-		   NULL, "\"I didn't know what you were into, Maebara-san, so I brought all sorts of things~", Line_WaitForInput);
+		   NULL, "\"Eu não sabia do que você gostava, Maebara-san, então eu trouxe todos os tipo de coisas~", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700415", 256, TRUE);
 	OutputLine(NULL, "ほぅら、より取り見取り野原は黄緑〜てなもんです。",
-		   NULL, " See, all sorts of cute-looking ones, from Westerns to comic strips!", Line_WaitForInput);
+		   NULL, " Veja, todo o tipo de coisas encantadoras, desde mangás adultos a produtos ocidentais! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700416", 256, TRUE);
 	OutputLine(NULL, "　さぁさ、好きなだけ持って行っちゃってくださいー！",
-		   NULL, " Lately they have this sort of H-manga aimed at girls, too~\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ultimamente eles também têm esses mangás ecchi voltado a garotas~\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //「エエエエ、エロ本なんか持ってこないで下さい～！！＠　持って帰って持って帰って！＠　痛ててててて...！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101198", 256, TRUE);
 	OutputLine(NULL, "「こここ、こんな本なんか持ってこないで下さい〜！！！",
-		   NULL, "\"D-D-D-D-D-D-D-Don't bring porn in here~!!!", Line_WaitForInput);
+		   NULL, "\"N-N-N-N-N-N-N-Não traga publicações eróticas para cá~!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101199", 256, TRUE);
 	OutputLine(NULL, "　持って帰って持って帰って！！",
-		   NULL, " Take them away, and go home!!", Line_WaitForInput);
+		   NULL, " Pegue elas de volta, e vá para casa!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101200", 256, TRUE);
 	OutputLine(NULL, "　痛ててててて…！！」",
 		   NULL, " Ow, ow ow ow ow...!!\"", Line_Normal);
@@ -37,12 +38,12 @@ void dialog002()
 {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "園崎家には、色々と黒い噂がまことしやかに囁かれていた。",
-		   NULL, "There were various dark rumors relating to the Sonozaki family.", Line_WaitForInput);
+		   NULL, "Havia vários rumores obscuros ligados à família Sonozaki.", Line_WaitForInput);
 	OutputLine(NULL, "……その中に、非合法の密売を行っている、などと根も葉もないデマもあった。",
-		   NULL, " ...Among them, there was even baseless speculation that they were selling illegal contraband.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Entre eles, havia até mesmo especulações sem fundamento de que eles vendiam contrabando ilegal.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……だとしたら梨花ちゃんも、それに関わっている疑いがある、とでも言いたいのか……？！",
-		   NULL, "...Did Ooishi mean to say that Rika-chan is also suspected in relation to such things?!", Line_Normal);
+		   NULL, "...Então, Ooishi quer dizer que Rika-chan também é suspeita em relação a tais coisas?!", Line_Normal);
 }
