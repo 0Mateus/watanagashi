@@ -5078,11 +5078,11 @@ void main()
 
 //　完全にレナのかぁいいモードと化した俺は、鼻血を滝のように流しながら、たっぷり存分に悔いがないくらい＠　言葉責めプレ......じゃなくて昼間の復讐を果たすのだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　完全にレナのかぁいいモードと化した俺は、鼻血を滝のように流しながら、たっぷり存分に悔いがないくらい！",
-		   NULL, "Entrando numa versão do Modo mEiGU, com o sangue jorrando do meu nariz como uma cachoeira, eu estava indo até o ponto de não ter arrependimentos!", Line_WaitForInput);
+		   NULL, "Entrando numa versão do Modo mEiGU, com o sangue jorrando do meu nariz como uma cachoeira, eu estava indo até o ponto de não ter arrependimentos! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　言葉責めプレ……じゃなくて昼間の復讐を果たすのだった。",
-		   NULL, " Eu iria completar este plano de humilhação verb... --melhor dizendo-- esta vingança pelo eventos de hoje.", Line_Normal);
+		   NULL, "Eu iria completar este plano de humilhação verb... --melhor dizendo-- esta vingança pelo eventos de hoje.", Line_Normal);
 	ClearMessage();
 
 //「うむ！　これくらいで今日は許してやろう。......はぅ～～☆＠
