@@ -27,7 +27,7 @@ void dialog001()
 //　中年の男性の声＠......一気に失望する￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　詩音とは明らかに違う女の子の声。",
-		   NULL, "Era a voz de uma mulher, que claramente não era Shion.", Line_WaitForInput);
+		   NULL, "Era a voz de uma garota, que claramente não era Shion.", Line_WaitForInput);
 	OutputLine(NULL, "……一気に失望する。",
 		   NULL, " ...Todas as minhas esperanças fugiram para fora de mim.", Line_Normal);
 }
