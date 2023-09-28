@@ -1,4 +1,4 @@
-# Higurashi When They Cry Hou: Cap. 2 - Watanagashi
+# Higurashi When They Cry Hou - Cap. 2 Watanagashi
 
 Tradução do segundo capítulo de _Higurashi When They Cry_ da [_Higurashi Eternal_](https://higurashieternal.wordpress.com/) adaptada para ser totalmente compatível com o [_07th-Mod_](https://07th-mod.com).
 
