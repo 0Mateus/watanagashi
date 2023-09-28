@@ -5813,7 +5813,7 @@ void main()
 		   NULL, "\"Então nas noites em que eles invadiam os povoados...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano1025", 256, TRUE);
 	OutputLine(NULL, "…哀れな犠牲者を美味しく頂くため、「綿流し」の儀式が開かれたというわ。」",
-		   NULL, " eles iriam se banquetear com os seus sacrifícios sequestrados, razão pela qual essa noite veio a ser conhecido como 'Watanagashi.'\"", Line_Normal);
+		   NULL, " eles iriam se banquetear com os seus sacrifícios sequestrados, razão pela qual essa noite veio a ser conhecida como 'Watanagashi.'\"", Line_Normal);
 
 	ClearMessage();
 
