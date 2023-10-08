@@ -835,7 +835,7 @@ void main()
 //　本当の夏が、...すぐそこまで来ていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本当の夏が、…すぐそこまで来ていた。",
-		   NULL, "O verdadeiro verão... estava justo diante de nossa olhos.", Line_Normal);
+		   NULL, "O verdadeiro verão... estava justo diante de nossos olhos.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("white", 3000 );

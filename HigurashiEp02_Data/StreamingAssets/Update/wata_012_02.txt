@@ -1624,7 +1624,7 @@ void main()
 //　......すぐに額を上げるのは、なんだか誠意が足りないように思い...、長いこと、机に伏せったまま時間が経つのに任せた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……すぐに額を上げるのは、なんだか誠意が足りないように思い…、長いこと、机に伏せったまま時間が経つのに任せた。",
-		   NULL, "...Eu percebi que não eu pareceria suficientemente sincero se eu levantasse a cabeça imediatamente... então eu a deixei baixada sobre a mesa por um tempo.", Line_Normal);
+		   NULL, "...Eu percebi que eu não pareceria suficientemente sincero se eu levantasse a cabeça imediatamente... então eu a deixei baixada sobre a mesa por um tempo.", Line_Normal);
 	ClearMessage();
 
 //　魅音は何も言わない＠

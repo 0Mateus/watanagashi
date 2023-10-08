@@ -5559,7 +5559,7 @@ void main()
 //　その時、お店のマスターが店内から紙袋を持ってきた＠...何だろう＠くれるのかな￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時、お店のマスターが店内から紙袋を持ってきた。",
-		   NULL, "Nesse momento, O proprietário da loja veio carregando algumas sacolas de papel.", Line_WaitForInput);
+		   NULL, "Nesse momento, o proprietário da loja veio carregando algumas sacolas de papel.", Line_WaitForInput);
 	OutputLine(NULL, "…何だろう。",
 		   NULL, " ...Eu me pergunto o que seria.", Line_WaitForInput);
 	OutputLine(NULL, "くれるのかな？",

@@ -5935,7 +5935,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano1028", 256, TRUE);
 	OutputLine(NULL, "　「…今でこそ綿流しは毎年６月に行なわれるちょっと早い夏祭りに過ぎないけど、昔は違った。」",
-		   NULL, "...Hoje em dia, o festival do Watanagashi pode ser apenas um festival de verão antecipado, que ocorre todo mês de junho, mas ele costumava ser diferente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Hoje em dia, o festival do Watanagashi pode ser apenas um festival de verão antecipado, que ocorre todo mês de junho, mas ele costumava ser diferente. ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano1029", 256, TRUE);
@@ -6129,7 +6129,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano1035", 256, TRUE);
 	OutputLine(NULL, "「平たく言えば、魚のワタを取り出して三角コーナーに捨てるのを、仰々しく儀式仕立にしたってことね。",
-		   NULL, "\"Em termos gerais, era uma cerimônia bastante bombástica, em que eles arrancavam as entranhas e as jogavam em uma bacia..", Line_WaitForInput);
+		   NULL, "\"Em termos gerais, era uma cerimônia bastante bombástica, em que eles arrancavam as entranhas e as jogavam em uma bacia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano1036", 256, TRUE);
 	OutputLine(NULL, "…それで儀式はおしまい。",
 		   NULL, " ...E então o ritual terminou.", GetGlobalFlag(GLinemodeSp));

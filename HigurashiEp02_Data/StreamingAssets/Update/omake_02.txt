@@ -1327,7 +1327,7 @@ void main()
 		   NULL, "\"Mas... eu ainda não estou convencida!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300336", 256, TRUE);
 	OutputLine(NULL, "　過去の完全犯罪の華麗さと違いすぎるもの。",
-		   NULL, " Foi muito diferente dos crimes magníficas e perfeitos do passado.", Line_WaitForInput);
+		   NULL, " Foi muito diferente dos crimes magníficos e perfeitos do passado.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300337", 256, TRUE);
 	OutputLine(NULL, "…その計画、例えうまく行っても「魅音」は悪役でしょ？",
 		   NULL, " ...Mesmo que o seu plano tivesse corrido bem, Mion acabaria sendo a vilã, certo? ", GetGlobalFlag(GLinemodeSp));

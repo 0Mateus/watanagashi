@@ -3015,7 +3015,7 @@ void main()
 //　...それはこれから行なわれる拷問への観念なんかじゃない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それはこれから行なわれる拷問への観念なんかじゃない。",
-		   NULL, "...Não eram pela aceitação do tortura prestes a ser executada, no entanto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Não eram pela aceitação da tortura prestes a ser executada, no entanto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　.........魅音が...鬼に負けてしまった何かへの、無念だった￥

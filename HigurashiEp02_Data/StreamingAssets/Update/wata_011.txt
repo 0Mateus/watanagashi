@@ -1694,7 +1694,7 @@ void main()
 		   NULL, " Se elas tivessem decidido fazer isso de antemão, elas não teriam preparado nada, mas...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200347", 256, TRUE);
 	OutputLine(NULL, "…そして、お夕食は２人分用意されていた。",
-		   NULL, " ...havia comido o suficiente para o jantar das duas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...havia comida o suficiente para o jantar das duas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2271,7 +2271,7 @@ void main()
 //　......そしてその晩の内に、富竹さんと鷹野さんは犠牲になった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そしてその晩の内に、富竹さんと鷹野さんは犠牲になった。",
-		   NULL, "...Então, àquela noite, Tomitake-san e Takano-san forma sacrificados.", Line_Normal);
+		   NULL, "...Então, àquela noite, Tomitake-san e Takano-san foram sacrificados.", Line_Normal);
 	ClearMessage();
 	DrawSceneWithMask("black", "m1", 0, 0, 1300 );
 

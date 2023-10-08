@@ -789,7 +789,7 @@ void main()
 		   NULL, "\"Ei, Shion.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100551", 256, TRUE);
 	OutputLine(NULL, "……警察なら、……言っちゃってもいいんじゃないのか…？",
-		   NULL, " ...Desde que eles são da polícia... nãos seria melhor nós contarmos para eles...?", Line_WaitForInput);
+		   NULL, " ...Desde que eles são da polícia... não seria melhor nós contarmos para eles...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100552", 256, TRUE);
 	OutputLine(NULL, "　むしろ、俺たちの状況を思えば、警察を味方に付けるのはプラスだと思うぞ…。」",
 		   NULL, " Eu quero dizer, considerando a nossa situação, eu acho que tê-los do nosso lado seria uma coisa boa...\"", GetGlobalFlag(GLinemodeSp));

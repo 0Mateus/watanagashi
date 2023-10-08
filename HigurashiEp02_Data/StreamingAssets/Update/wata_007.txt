@@ -392,7 +392,7 @@ void main()
 		   NULL, "\"Entendido!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei34710", 256, TRUE);
 	OutputLine(NULL, "　俺、こう見えても太陽の下で汗をかくの、嫌いじゃないんだぜ。」",
-		   NULL, " Eu posso parecer esquelético, mas eu realmente suo basante a camisa sob o sol quente.\"", Line_Normal);
+		   NULL, " Eu posso parecer esquelético, mas eu realmente suo bastante a camisa sob o sol quente.\"", Line_Normal);
 	ClearMessage();
 
 //「せいぜい腰を痛めないよーにね＠んじゃ、おじさんはこの辺で＠...私も着替えたらすぐに神社に行くから。＠
@@ -2008,7 +2008,7 @@ void main()
 		   NULL, " Alguma coisa assim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s19/11/500700116", 256, TRUE);
 	OutputLine(NULL, "おや、富竹くんじゃないですか。",
-		   NULL, " Oh? Se não é Tomitake-san.", Line_WaitForInput);
+		   NULL, " Oh? Se não é Tomitake-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s19/11/500700117", 256, TRUE);
 	OutputLine(NULL, "ご無沙汰しておりますねぇ！」",
 		   NULL, " Certamente faz um tempo!\"", GetGlobalFlag(GLinemodeSp));

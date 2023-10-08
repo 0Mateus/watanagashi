@@ -3275,7 +3275,7 @@ void main()
 		   NULL, "\"Os Sonozaki são um grupo de yakuza com toda esta região em sua mão.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi1001", 256, TRUE);
 	OutputLine(NULL, "ちなみに彼女のお父さんは、××組系のヤクザの大幹部さんです。",
-		   NULL, " Além disso, seu pai é um executivo de alto-escalão na associação ×× nessa yakuza.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Além disso, seu pai é um executivo de alto-escalão na associação ×× nessa yakuza. ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "org/ooishi1002", 256, TRUE);

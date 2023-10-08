@@ -2353,7 +2353,7 @@ void main()
 //　家には書置きがあり、親父とお袋は帰りが深夜になるから、ラーメンでも作って食べててくれ、とのことだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　家には書置きがあり、親父とお袋は帰りが深夜になるから、ラーメンでも作って食べててくれ、とのことだった。",
-		   NULL, "Havia uma nota em minha casa, dizendo que minha mão e meu pai chegariam tarde, e que eu deveria fazer ramen ou algo assim para o jantar.", Line_Normal);
+		   NULL, "Havia uma nota em minha casa, dizendo que minha mãe e meu pai chegariam tarde, e que eu deveria fazer ramen ou algo assim para o jantar.", Line_Normal);
 	ClearMessage();
 
 //　食べる気ならいつでも作れるし、...それに食欲も湧かなかったので、...何も口にせず、ただぼーっと天井を眺めて過ごした￥
@@ -3245,7 +3245,7 @@ void main()
 //　.........それがどれほど重要で、残酷な意味を持つのか...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………それがどれほど重要で、残酷な意味を持つのか…。",
-		   NULL, "......Quanto crueldade essas palavras estariam carregando...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Quanta crueldade essas palavras estariam carregando...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

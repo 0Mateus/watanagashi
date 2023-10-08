@@ -44,7 +44,7 @@ void main()
 //　俺は一応は断ったのだが、詩音に押し切られる形で、自転車ごと押し込まれたのだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺は一応は断ったのだが、詩音に押し切られる形で、自転車ごと押し込まれたのだった。",
-		   NULL, "Eu tinha a princípio recusado, mas Shion insistiu, e eu e minha bicicleta terminados socados no carro.", Line_Normal);
+		   NULL, "Eu tinha a princípio recusado, mas Shion insistiu, e eu e minha bicicleta terminamos socados no carro.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/kuruma4", "up", 0, 0, 1300 );

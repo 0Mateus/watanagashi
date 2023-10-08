@@ -2583,7 +2583,7 @@ void main()
 //　知り合ったばかりの新しい友達の家に初めて向かうような、新鮮な緊張感￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　知り合ったばかりの新しい友達の家に初めて向かうような、新鮮な緊張感。",
-		   NULL, "Eu senti uma sensação de antecipação vertiginosa, como se eu estivesse indo à casa um novo amigo pela primeira vez.", Line_Normal);
+		   NULL, "Eu senti uma sensação de antecipação vertiginosa, como se eu estivesse indo à casa de um novo amigo pela primeira vez.", Line_Normal);
 	ClearMessage();
 
 //　レナの、魅ぃちゃんも本当はすっごく女の子らしいんだよ、という言葉が蘇る＠
@@ -2767,7 +2767,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不良</color>", NULL, "<color=#f5e6d3>Delinquente</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/bada50001", 256, TRUE);
 	OutputLine(NULL, "「ンにすんだンの野郎ぉおおおぉおッ！！！」",
-		   NULL, "\"Que diabos você está fazendo'!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Que diabos você está fazendo!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

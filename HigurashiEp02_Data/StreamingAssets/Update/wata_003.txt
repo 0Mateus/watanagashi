@@ -207,7 +207,7 @@ void main()
 	OutputLine(NULL, "　大体、カレーなんてジャンクフードの筆頭じゃねーかよ。",
 		   NULL, " Além disso, curry não está no topo da lista quando falamos em JUNK FOOD? ", Line_Continue);
 	OutputLine(NULL, "３食カレーなんて栄養的にも偏って、」",
-		   NULL, " Curry três vezes ao dia é estranho, falando em relação à nutrição, e—\"", Line_Normal);
+		   NULL, "Curry três vezes ao dia é estranho, falando em relação à nutrição, e—\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 200 );
@@ -2498,7 +2498,7 @@ void main()
 //　校長先生がセレモニー的な挨拶をし、続けて先生が、カレー勝負があるので、ぜひ採点してほしいとお願いする＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　校長先生がセレモニー的な挨拶をし、続けて先生が、カレー勝負があるので、ぜひ採点してほしいとお願いする。",
-		   NULL, "O diretor fez uma pequena introdução cerimoniosa. Em seguida, a professora expressou o desejo dela de que eles julgassem o disputa do curry.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O diretor fez uma pequena introdução cerimoniosa. Em seguida, a professora expressou o desejo dela de que eles julgassem a disputa do curry.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4486,7 +4486,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/500400055", 256, TRUE);
 	OutputLine(NULL, "「そそ、それじゃ私たちのお昼がなくなっちゃいますわ〜？　ぅぅ〜〜！！！」",
-		   NULL, "\"Ma-Ma-mas assim nós não teremos nada par ao almoço~! Wahhh~~!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Ma-Ma-mas assim nós não teremos nada para o almoço~! Wahhh~~!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

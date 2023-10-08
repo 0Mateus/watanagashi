@@ -108,7 +108,7 @@ void main()
 //　その死は、禁断の神殿「祭具殿」に踏み入ったためにオヤシロさまの怒りに触れた、というのがもっぱらの噂だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その死は、禁断の神殿「祭具殿」に踏み入ったためにオヤシロさまの怒りに触れた、というのがもっぱらの噂だ。",
-		   NULL, "Todos os rumores apontam para eles terem provocado a ira de Oyashiro-sama por colocarem o pé no tempo proibido—o saiguden.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Todos os rumores apontam para eles terem provocado a ira de Oyashiro-sama por colocarem o pé no templo proibido—o saiguden.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

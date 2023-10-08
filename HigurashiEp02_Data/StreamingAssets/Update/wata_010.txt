@@ -588,7 +588,7 @@ void main()
 //　...時間も遅かったし、ほとんど外灯のない雛見沢でのこと＠...村長さんが帰る途中を見た者は誰もいない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…時間も遅かったし、ほとんど外灯のない雛見沢でのこと。",
-		   NULL, "...Já era tarde, e Hinamizawa não tem muitas postes de luz.", Line_WaitForInput);
+		   NULL, "...Já era tarde, e Hinamizawa não tem muitos postes de luz.", Line_WaitForInput);
 	OutputLine(NULL, "…村長さんが帰る途中を見た者は誰もいない。",
 		   NULL, " ...Ninguém viu o chefe da vila depois da reunião.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1940,7 +1940,7 @@ void main()
 //　梨花ちゃんは、何だか生気を感じさせず...まるで人形のように、ぼーっと立っていた...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花ちゃんは、何だか生気を感じさせず…まるで人形のように、ぼーっと立っていた…。",
-		   NULL, "Rika-chan estava lá parada com uma boneca... desprovida de vida...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rika-chan estava lá parada como uma boneca... desprovida de vida...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...驚いたのは俺ひとり＠

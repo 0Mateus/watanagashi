@@ -227,7 +227,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500021", 256, TRUE);
 	OutputLine(NULL, "「……魅ぃの双子の妹さんだと聞いたことがありますですが、あまり会ったことはないのです。」",
-		   NULL, "\"......Eu ouvi que ela é irmã gêmea de Mii, mas eu não me encontrei com ela muita vezes.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Eu ouvi que ela é irmã gêmea de Mii, mas eu não me encontrei com ela muitas vezes.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
