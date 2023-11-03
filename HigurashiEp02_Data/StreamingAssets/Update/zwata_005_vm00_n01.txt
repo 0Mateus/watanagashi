@@ -29,7 +29,7 @@ void dialog001()
 //「凄まじいレートでござるな＠　アンミュラで８万、閉店後のブロバで１２万が相場でござるのに...！！（使用済みの場合でござるよ。コピー品は半額以下でござる！）＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>オタク</color>", NULL, "<color=#f5e6d3>Otaku</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「凄まじいレートでござるな！",
-		   NULL, "\"'Isso é um preço absurdo!", Line_WaitForInput);
+		   NULL, "\"Isso é um preço absurdo!", Line_WaitForInput);
 	OutputLine(NULL, "　アンミュラで８万、閉店後のブロバで１２万が相場でござるのに…！！（使用済みの場合でござるよ。コピー品は半額以下でござる！）」",
 		   NULL, " O da AnnMull custava 80,000; quando a BroBa fechou o preço do deles era de 12,000. (Esse é o preço dos usados. As imitações custam menos da metade desse valor!)\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
