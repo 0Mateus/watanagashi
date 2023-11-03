@@ -81,12 +81,12 @@ void dialog004()
 	OutputLine(NULL, "くらって言ったら「カードマスターさくら」だろーッ？！？！",
 		   NULL, "kura só pode significar 'Card Master Sakura,' certo!?!?", Line_WaitForInput);
 	OutputLine(NULL, "　国営放送で毎週放送中の大人気アニメ！！！",
-		   NULL, " É um anime superpopular que é exibido todas as semanas nos canais do governo!!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " É um anime superpopular que é exibido todas as semanas na TV!!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　小さな女の子から大きなお友達まで大ヒットブレイク中のっぉおおぉッ！！",
-		   NULL, "Ele atingiu todos os grupos, de meninas até mesmo homens adultos!!", Line_WaitForInput);
+		   NULL, "Ele atingiu todos os grupos, de meninas a até mesmo homens adultos!!", Line_WaitForInput);
 	OutputLine(NULL, "　お前らだって見てるだろ？！",
 		   NULL, " Você já viu, não viu!?", Line_WaitForInput);
 	OutputLine(NULL, "　いや絶対見てるさ、俺だって見てるくらいなんだからぁああぁあぁあッ！！！！」",
@@ -141,7 +141,7 @@ void dialog008()
 	OutputLine(NULL, "「最近、見始めましたわ。",
 		   NULL, "\"Eu vi pela primeira vez recentemente.", Line_WaitForInput);
 	OutputLine(NULL, "さくらが元気一杯でカッコイイんですの！」",
-		   NULL, " A Sakura é legal e está sempre tão alegre!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A Sakura é tão legal e está sempre tão alegre!\"", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
