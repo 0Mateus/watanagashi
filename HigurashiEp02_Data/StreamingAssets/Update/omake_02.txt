@@ -36,7 +36,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200174", 256, TRUE);
 	OutputLine(NULL, "「「ひぐらしのなく頃に粋」、「綿流し」を最後までお楽しみいただき、誠にありがとうございました！",
-		   NULL, "\"Muito obrigado por terem apreciado Higurashi When They Cry: Watanagashi!", Line_WaitForInput);
+		   NULL, "\"Muito obrigado por terem apreciado Higurashi no Naku Koro ni: Capítulo Watanagashi!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200175", 256, TRUE);
 	OutputLine(NULL, "　この度のシナリオはいかがだったでしょうか？",
 		   NULL, " Como foi a história desta vez?", Line_WaitForInput);
@@ -768,7 +768,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200196", 256, TRUE);
 	OutputLine(NULL, "「じゃあ…、…これで「ひぐらしのなく頃に粋」のメインシナリオはほとんど終わり…なのかな…？",
-		   NULL, "\"Então... isso quer dizer... que o cenário principal de Higurashi When They Cry está terminado...?", Line_WaitForInput);
+		   NULL, "\"Então... isso quer dizer... que o cenário principal de Higurashi no Naku Koro ni está terminado...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200197", 256, TRUE);
 	OutputLine(NULL, "　全ての元凶は魅ぃちゃんの園崎家で…決まり…？」",
 		   NULL, " Então é certo que... a raiz de tudo era a família de Mii-chan...?\"", GetGlobalFlag(GLinemodeSp));
@@ -2244,7 +2244,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200229", 256, TRUE);
 	OutputLine(NULL, "「それでは引き続き、「ひぐらしのなく頃に粋」をお楽しみ下さい。」",
-		   NULL, "\"Com isso, por favor, espere pelo resto da série Higurashi When They Cry.\"",  Line_Normal);
+		   NULL, "\"Com isso, por favor, espere pelo resto da série Higurashi no Naku Koro ni.\"",  Line_Normal);
 	ClearMessage();
 
 //mov %CAMP_MUGIC,0
