@@ -570,7 +570,7 @@ void main()
 //　...こいつ、よく意味がわかってないな...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…こいつ、よく意味がわかってないな…？",
-		   NULL, "...Ela provavelmente iria acabar acumulando os rancores e a amargura das pessoas antes de encontrar seu fim...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ela provavelmente iria acabar acumulando os rancores e a amargura das pessoas antes de encontrar seu fim...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
