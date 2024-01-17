@@ -23,13 +23,13 @@ void dialog001()
 //それで...チョイっと。￥
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300101", 256, TRUE);
 	OutputLine(NULL, "それで…実はエンドレスに突入しちゃって。」",
-		   NULL, " E bem... as coisas se prolongaram um pouco.\"", Line_Normal);
+		   NULL, " E bem... foi um pouco interminável.\"", Line_Normal);
 	ClearMessage();
 
 //　チョイっと＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　エンドレス。",
-		   NULL, "Se prolongaram?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Interminável.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
