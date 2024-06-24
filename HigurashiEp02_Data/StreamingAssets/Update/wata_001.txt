@@ -1015,7 +1015,7 @@ void main()
 		   NULL, "\"Exatamente!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300394", 256, TRUE);
 	OutputLine(NULL, "　優勝賞金は５万円ッ！！！」",
-		   NULL, " O prêmio maior é de 50 mil ienes!!!\" (*) em torno de 500 dólares!!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " O prêmio maior é de 50 mil ienes!!!\" (*) em torno de 500 dólares.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1074,7 +1074,7 @@ void main()
 		   NULL, " Satoko, nós devemos acertar isso antes que os policiais cheguem!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei08920", 256, TRUE);
 	OutputLine(NULL, "　目標は１０億強奪だ！！」",
-		   NULL, " O objetivo é roubar um milhão!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " O objetivo é roubar um bilhão!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
