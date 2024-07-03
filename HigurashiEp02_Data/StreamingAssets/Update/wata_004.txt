@@ -4854,7 +4854,7 @@ void main()
 //　それを明確に捉えられない自分が、何だか歯痒かった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを明確に捉えられない自分が、何だか歯痒かった。",
-		   NULL, "Não ser capaz de identificar o que era exatamente o que era foi vexatório.", Line_Normal);
+		   NULL, "Não ser capaz de identificar exatamente o que era foi vexatório.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/res4", "up", 0, 0, 300 );
