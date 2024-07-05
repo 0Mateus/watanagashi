@@ -25,7 +25,7 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300411", 256, TRUE);
 	OutputLine(NULL, "「みんないいかな〜？！",
-		   NULL, "\"Todos estão prontos~?!", Line_WaitForInput);
+		   NULL, "\"Todos estão prontos~!?", Line_WaitForInput);
 
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300412", 256, TRUE);
 	OutputLine(NULL, "　傾注傾注〜！！」",
