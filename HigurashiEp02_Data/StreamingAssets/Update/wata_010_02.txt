@@ -2089,7 +2089,7 @@ void main()
 		   NULL, "\"...O velho Kimiyoshi... não ficou furioso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600424", 256, TRUE);
 	OutputLine(NULL, "……そして、にっこり笑って、詩音ちゃんがちゃんと反省してるなら、鬼隠しになんかなるものか、…って。",
-		   NULL, " ......Ele sorriu e, em seguida, me disse que se eu me sentia arrependida sobre isso, não havia nenhuma maneira de eu sofrer onikakushi...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......Ele sorriu e, em seguida, me disse que se eu me sentia arrependida sobre isso, não havia nenhuma maneira de eu sofrer onikakushi... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600425", 256, TRUE);
 	OutputLine(NULL, "…本当に",
