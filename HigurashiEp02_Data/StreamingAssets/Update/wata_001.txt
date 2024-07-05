@@ -2811,7 +2811,7 @@ void main()
 		   NULL, "\"1, 2, 3, 4.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei09360", 256, TRUE);
 	OutputLine(NULL, "出産祝いをもらう。",
-		   NULL, " Celebre o nascimetno de seu filho.", Line_WaitForInput);
+		   NULL, " Celebre o nascimento de seu filho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei09370", 256, TRUE);
 	OutputLine(NULL, "全員から５０００＄もらう。",
 		   NULL, " Ganhe 5 mil dólares de todo mundo.", Line_WaitForInput);
@@ -5387,7 +5387,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300457", 256, TRUE);
 	OutputLine(NULL, "　店員足りないのにタマゴ１パックお一人様１点限り１０円なんてやるなー！！！！」",
-		   NULL, "Mesmo sem ter pessoal que chega, eles estão vendendo uma caixa de ovos por 10 ienes, no limite de uma por cliente!!!\"", Line_Normal);
+		   //NULL, "Mesmo sem ter pessoal que chega, eles estão vendendo uma caixa de ovos por 10 ienes, no limite de uma por cliente!!!\"", Line_Normal);
+		   NULL, "Mesmo sem ter uma equipe grande o suficiente, eles estão vendendo uma caixa de ovos por 10 ienes, no limite de uma por cliente!!!\"", Line_Normal);
 	ClearMessage();
 
 //　ちょっとびっくりだった＠
