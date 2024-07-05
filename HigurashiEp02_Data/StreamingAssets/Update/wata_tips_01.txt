@@ -543,7 +543,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………梨花ちゃんが借金のかたに特殊な風俗業界に身売り…。",
 		   //NULL, "...Rika-chan jogando um Jogo da Vida na vida real...", GetGlobalFlag(GLinemodeSp));
-		   NULL, "...Rika-chan sendo vendida para a indústria do entreterimento para pagar suas dívidas...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Rika-chan sendo vendida para a indústria do entretenimento para pagar suas dívidas...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //　......あ、やべ、...鼻血～￥
