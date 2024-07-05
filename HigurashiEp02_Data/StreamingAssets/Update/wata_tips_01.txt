@@ -530,23 +530,27 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "org/rika1902", 256, TRUE);
 	OutputLine(NULL, "「……魅ぃにお買い物代を借りたことをコロリと忘れてしまったら、",
-		   NULL, "\"......Quando, uma vez, eu me esqueci completamente de devolver o Jogo da Vida que eu tinha pego emprestado dela, ", Line_WaitForInput);
+		   //NULL, "\"......Quando, uma vez, eu me esqueci completamente de devolver o Jogo da Vida que eu tinha pego emprestado dela, ", Line_WaitForInput);
+		   NULL, "\"......Quando, uma vez, eu me esqueci completamente de devolver uma quantia de dinheiro que ela me emprestou para fazer compras, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "org/rika1903", 256, TRUE);
 	OutputLine(NULL, "耳を揃えて返さんと身売りして風呂に沈めたるどーと凄まれましたのです。」",
-		   NULL, "ela me ameaçou, dizendo que se eu não devolvesse, ela me faria jogar um Jogo da Vida na vida real.\"", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "ela me ameaçou, dizendo que se eu não devolvesse, ela me faria jogar um Jogo da Vida na vida real.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "ela me ameaçou, dizendo que se eu não devolvesse, ela me jogaria no distrito da luz vermelha e eu passaria o resto da minha vida lá.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　.........梨花ちゃんが借金のかたに特殊な風俗業界に身売り...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………梨花ちゃんが借金のかたに特殊な風俗業界に身売り…。",
-		   NULL, "...Rika-chan jogando um Jogo da Vida na vida real...", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "...Rika-chan jogando um Jogo da Vida na vida real...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Rika-chan sendo vendida para a indústria do entreterimento para pagar suas dívidas...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //　......あ、やべ、...鼻血～￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あ、やべ、…鼻血〜☆",
-		   NULL, "...Eu tenho a sensação de que ela escalaria seu caminho até uma posição como uma milionária de TI...", Line_Normal);
+		   //NULL, "...Eu tenho a sensação de que ela escalaria seu caminho até uma posição como uma milionária de TI...", Line_Normal);
+		   NULL, "...Ah, droga... meu nariz está sangrando~☆", Line_Normal);
 
 	ClearMessage();
 	DisableWindow();
@@ -556,21 +560,24 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "org/satoko1900", 256, TRUE);
 	OutputLine(NULL, "「お風呂に沈められて溺れ死ぬなんて、おマヌケにもほどがありますわね〜！」",
-		   NULL, "\"Ter de jogar Jogo da Vida na vida real parece bastante eletrizante~!\"", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "\"Ter de jogar Jogo da Vida na vida real parece bastante eletrizante~!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Morrer por ser jogada no distrito da luz vermelha deve ser uma das mortes mais estúpidas que já ouvi~!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　......は＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……は？",
-		   NULL, "...Satoko, hã?", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "...Satoko, hã?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Hã?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　...こいつ、よく意味がわかってないな...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…こいつ、よく意味がわかってないな…？",
-		   NULL, "...Ela provavelmente iria acabar acumulando os rancores e a amargura das pessoas antes de encontrar seu fim...", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "...Ela provavelmente iria acabar acumulando os rancores e a amargura das pessoas antes de encontrar seu fim...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ela provavelmente não entendeu nada, não é...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -578,13 +585,14 @@ void main()
 //　今どきなかなか初々しいヤツ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今どきなかなか初々しいヤツ。",
-		   NULL, "Bem, isso parece apropriado para ela.", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "Bem, isso parece apropriado para ela.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ela é uma criança pura e inocente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //　俺と梨花ちゃんが沙都子の頭をなでなでしてやる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺と梨花ちゃんが沙都子の頭をなでなでしてやる。",
-		   NULL, "Rika-chan e eu acariciamos na cabeça de Satoko.", Line_Normal);
+		   NULL, "Rika-chan e eu acariciamos a cabeça de Satoko.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModSetLayerFilter(3, 256, "none");
