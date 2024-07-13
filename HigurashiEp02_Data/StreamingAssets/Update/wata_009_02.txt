@@ -2154,7 +2154,7 @@ void main()
 	OutputLine(NULL, "　おいおい……。",
 		   NULL, "Ei, espere......", Line_WaitForInput);
 	OutputLine(NULL, "いい加減にしろよ前原圭一。",
-		   NULL, " Pegue leve, Keiichi Maebara.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Pegue leve, Maebara Keiichi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

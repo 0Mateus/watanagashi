@@ -3087,7 +3087,7 @@ void main()
 //　だが前原圭一＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが前原圭一！",
-		   NULL, "Entretanto, Keiichi Maebara!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Entretanto, Maebara Keiichi!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

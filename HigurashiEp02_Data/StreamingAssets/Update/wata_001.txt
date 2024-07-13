@@ -5059,7 +5059,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300442", 256, TRUE);
 	OutputLine(NULL, "「今日の勝負を、部長、園崎魅音が預からせてもらうよ。",
-		   NULL, "\"Quanto à disputa de hoje: Eu, a Presidente do Clube Mion Sonozaki, vou suspender o julgamento por enquanto.", Line_WaitForInput);
+		   NULL, "\"Quanto à disputa de hoje: Eu, a Presidente do Clube Sonozaki Mion, vou suspender o julgamento por enquanto.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300443", 256, TRUE);
 	OutputLine(NULL, "勝負方法と日時は未定。",
 		   NULL, " O método e a hora ainda não estão definidos.", Line_WaitForInput);

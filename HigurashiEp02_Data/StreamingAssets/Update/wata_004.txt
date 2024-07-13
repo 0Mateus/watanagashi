@@ -2659,7 +2659,7 @@ void main()
 //　......おいおい、何をやってるんだよ前原圭一＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……おいおい、何をやってるんだよ前原圭一！",
-		   NULL, "...Ei, ei! O que você está fazendo, Keiichi Maebara!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ei, ei! O que você está fazendo, Maebara Keiichi!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -4530,7 +4530,7 @@ void main()
 //　...おいおい、それはおかしいぞ前原圭一＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…おいおい、それはおかしいぞ前原圭一。",
-		   NULL, "...Ei, pare de pensar em coisas estranhas, Keiichi Maebara.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ei, pare de pensar em coisas estranhas, Maebara Keiichi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

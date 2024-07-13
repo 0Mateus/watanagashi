@@ -3603,7 +3603,7 @@ void main()
 //　...おい、前原圭一＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…おい、前原圭一。",
-		   NULL, "...Ei, Keiichi Maebara.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ei, Maebara Keiichi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
