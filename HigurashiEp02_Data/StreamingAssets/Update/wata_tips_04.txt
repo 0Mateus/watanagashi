@@ -126,7 +126,8 @@ void main()
 		   NULL, " Esta é a caixa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100070", 256, TRUE);
 	OutputLine(NULL, "ちゃんと洗ってあるからな！」",
-		   NULL, " Certifique-se de que ela está limpa!\"", GetGlobalFlag(GLinemodeSp));
+		   //NULL, " Certifique-se de que ela está limpa!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Fiz questão de deixá-la bem limpa!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -286,7 +287,8 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　詩音にね！",
-		   NULL, " Diga à Shion, certo?", Line_WaitForInput);
+		   //NULL, " Diga à Shion, certo?", Line_WaitForInput);
+		   NULL, " Dizer à Shion, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300067", 256, TRUE);
 	OutputLine(NULL, "　伝えておくよ！",
 		   NULL, " Eu vou fazer isso!", Line_WaitForInput);
