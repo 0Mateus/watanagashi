@@ -4780,7 +4780,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600088", 256, TRUE);
 	OutputLine(NULL, "「お姉じゃないですよねぇ？」",
-		   NULL, "\"Ela não é minha irmã, certo?\"", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "\"Ela não é minha irmã, certo?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Não seria a minha irmã, certo?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5554,7 +5555,8 @@ void main()
 	OutputLine(NULL, "　詩音は何か言いたそうだったが、ぐっと飲み込んだ。",
 		   NULL, "Parece que Shion queria dizer algo, mas ela engoliu as palavras.", Line_WaitForInput);
 	OutputLine(NULL, "まだ話し足りない、そんな感じだった。",
-		   NULL, " Como se nós já tivéssemos conversado o suficiente, esse tipo de coisa.", GetGlobalFlag(GLinemodeSp));
+		   //NULL, " Como se nós já tivéssemos conversado o suficiente, esse tipo de coisa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Como se nós não tivéssemos conversado o suficiente, esse tipo de coisa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
