@@ -32,7 +32,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>オタク</color>", NULL, "<color=#f5e6d3>Otaku</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/otag50001", 256, TRUE);
 	OutputLine(NULL, "「しかし大人買いするには種類が多すぎるのでごわすな……。",
-		   NULL, "\"'O problema é que tem tantas variações para as construírem ... ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"O problema é que tem tantas variações para as construírem... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>オタク</color>", NULL, "<color=#f5e6d3>Otaku</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/otag50002", 256, TRUE);
 	OutputLine(NULL, "　普通のファミレス制服のフィギュアなら１０種類程度でごわすのに……今度のはシークレットポーズ差分込みでざっと１００種類！！",
@@ -44,7 +44,8 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>オタク</color>", NULL, "<color=#f5e6d3>Otaku</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/otah50001", 256, TRUE);
 	OutputLine(NULL, "「ダブった時は誰かトレードしてもらいたいでおじゃる〜。",
-		   NULL, "\"Alguém, troque comigo quando eu tiver um duplo~☆", Line_WaitForInput);
+		   //NULL, "\"Alguém, troque comigo quando eu tiver um duplo~☆", Line_WaitForInput);
+		   NULL, "\"Alguém, troque comigo quando eu tiver um repetido~☆", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/otah50002", 256, TRUE);
 	OutputLine(NULL, "　ファンとしては即日コンプは義務！",
 		   NULL, " É meu dever como fã completar a coleção de uma vez!", Line_Continue);
