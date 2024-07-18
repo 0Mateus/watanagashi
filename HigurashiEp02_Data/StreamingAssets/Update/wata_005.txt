@@ -1647,7 +1647,7 @@ void main()
 //　絶対的に追い詰められた詩音が青ざめ、先輩ウェイトレスに助けを求めるが......同情の顔で首を振るだけだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　絶対的に追い詰められた詩音が青ざめ、先輩ウェイトレスに助けを求めるが……同情の顔で首を振るだけだ。",
-		   NULL, "Totalmente acuado, Shion ficou pálida. Ela olhou para uma garçonete mais experiente esperando ajuda... mas apenas encontrou uma cabeça balançando em piedade.", Line_Normal);
+		   NULL, "Totalmente acuada, Shion ficou pálida. Ela olhou para uma garçonete mais experiente esperando ajuda... mas apenas encontrou uma cabeça balançando em piedade.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/res2", "right", 0, 0, 300 );
@@ -4120,7 +4120,7 @@ void main()
 //　トイレへ通じる狭い通路は１０人前後の男たちでひしめき合っていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　トイレへ通じる狭い通路は１０人前後の男たちでひしめき合っていた。",
-		   NULL, "Qual seria a resposta desta questão.", Line_Normal);
+		   NULL, "O estreito corredor que levava ao banheiro estava cheio, com cerca de dez homens.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_006", 56, 64 );
