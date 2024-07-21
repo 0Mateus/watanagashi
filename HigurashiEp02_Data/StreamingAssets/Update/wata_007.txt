@@ -1687,7 +1687,7 @@ void main()
 		   NULL, " Sou Tomitake.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "org/tomitake1005", 256, TRUE);
 	OutputLine(NULL, "東京から来てるフリーのカメラマンさ。」",
-		   NULL, " Sou um fotógrafo freelancer de Tokyo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sou um fotógrafo freelancer de Tóquio.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
