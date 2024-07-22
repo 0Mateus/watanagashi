@@ -281,7 +281,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700135", 256, TRUE);
 	OutputLine(NULL, "………今年はなぁに考えてるのかなぁ、オヤシロさまは〜。」",
-		   NULL, "......Cara, eu me pergunto que Oyashiro-sama está pensando este ano~\"", Line_Normal);
+		   NULL, "......Cara, eu me pergunto o que Oyashiro-sama está pensando este ano~\"", Line_Normal);
 	ClearMessage();
 
 
@@ -313,7 +313,7 @@ void main()
 		   NULL, " Eles conseguiram!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/keijia44003", 256, TRUE);
 	OutputLine(NULL, "　興宮のデンタルクリニックで３年前に親知らずの治療をしてます！！」",
-		   NULL, " A clínica dentária em Okinomiya fixou o dente do siso há três anos!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A clínica dentária em Okinomiya retirou o dente do siso há três anos!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
