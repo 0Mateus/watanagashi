@@ -106,7 +106,7 @@ void dialog023()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900207", 256, TRUE);
 	OutputLine(NULL, "「あら、ジロウさんも見たくて我慢できなくなったかしら？」",
-		   NULL, "\"Oh, Jirou-san, você não pode resistir e resolveu entrar?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Oh, Jirou-san, você não pôde resistir e resolveu entrar?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
