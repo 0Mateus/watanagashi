@@ -105,7 +105,7 @@ void dialog023()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano1093", 256, TRUE);
 	OutputLine(NULL, "「あら、ジロウさんも見たくて我慢できなくなったかしら？",
-		   NULL, "\"Oh, Jirou-san, você não pode resistir e resolveu entrar?", Line_Continue);
+		   NULL, "\"Oh, Jirou-san, você não pôde resistir e resolveu entrar?", Line_Continue);
 	ModPlayVoiceLS(4, 9, "org/takano1094", 256, TRUE);
 	OutputLine(NULL, "　……ここ、素敵な拷問道具の宝庫よ。」",
 		   NULL, " ...Este é um esplêndido tesouro de dispositivos de tortura.\"", GetGlobalFlag(GLinemodeSp));
