@@ -74,7 +74,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200003", 256, TRUE);
 	OutputLine(NULL, "「でもでも、…今日、圭一くんにする最初の挨拶だから、やっぱりおはようがいいな。いいな。」",
-		   NULL, "\"Mas, mas... Esta é a primeira vez que eu vejo você hoje, então eu acho que 'bom dia' é melhor, não é mesmo? Não é mesmo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Mas, mas... Esta é a primeira vez que eu vejo você hoje, então eu acho que 'bom dia' é melhor, não é mesmo? Não é mesmo?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -319,7 +319,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion1012", 256, TRUE);
 	OutputLine(NULL, "「雛見沢中から出てきてるんだろうなぁ。",
-		   NULL, "\"Será que eles estão vindo de Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "\"Será que eles estão vindo de Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Todos de Hinamizawa estarão aqui.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -328,10 +329,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion1013", 256, TRUE);
 	OutputLine(NULL, "　ありゃ、公由分家の寝たきり爺さんまで来てるじゃない！",
-		   NULL, "Hã? Até o velho acamado de um dos ramos da família Kimiyoshi está aqui!", Line_WaitForInput);
+		   NULL, "Hã? Até o velho acamado da família Kimiyoshi está aqui!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion1014", 256, TRUE);
 	OutputLine(NULL, "　あの爺さん、去年の綿流し以降、ずーっと布団の中で過ごしてたんじゃないかなぁ。」",
-		   NULL, " Eu acho que ele voltou para o Watanagashi do ano passado e está de cama desde então.\"", Line_Normal);
+		   NULL, " Eu acho que ele está de cama desde o Watanagashi do ano passado.\"", Line_Normal);
 
 	ClearMessage();
 
@@ -569,7 +570,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100015", 256, TRUE);
 	OutputLine(NULL, "２点から撮影して立体視できるようにすれば………立体の生梨花ちゃんが、自宅でいつでも食べ…もとい、眺め放題〜〜！！」",
-		   NULL, "Se tirarmos uma fotografia de dois ângulos diferentes e juntá-las num estereoscópio... nós podemos comer—digo, olhar para—uma Rika-chan de verdade em nossas casas quando quisermos~~!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se tirarmos uma fotografia de dois ângulos diferentes e juntá-las num estereoscópio... nós podemos comer-- digo, olhar para uma Rika-chan de verdade em nossas casas quando quisermos~~!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2352,7 +2353,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "org/rika1001", 256, TRUE);
 	OutputLine(NULL, "「……ボクの平らなお胸ではどうなのです？」",
-		   NULL, "\"......O que acha do meu busto plano?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......O que acha dos meus seios lisos?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -5968,7 +5969,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano1030", 256, TRUE);
 	OutputLine(NULL, "「前原くんはさっき、綿流しは布団を清める儀式だと言ったわね。",
-		   NULL, "\"Maebara-kun, você disse que o Watanagashi era um ritual de purificação de futons, certo??", Line_WaitForInput);
+		   NULL, "\"Maebara-kun, você disse que o Watanagashi era um ritual de purificação de futons, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano1031", 256, TRUE);
 	OutputLine(NULL, "ワタが詰まった布団って、何を意味してると思うかしら？」",
 		   NULL, " O que você acha que os futons, cheios de algodão—de 'wata'—representam?\"", GetGlobalFlag(GLinemodeSp));
@@ -6132,7 +6133,7 @@ void main()
 		   NULL, "\"Em termos gerais, era uma cerimônia bastante bombástica, em que eles arrancavam as entranhas e as jogavam em uma bacia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano1036", 256, TRUE);
 	OutputLine(NULL, "…それで儀式はおしまい。",
-		   NULL, " ...E então o ritual terminou.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...E então o ritual termina.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6140,7 +6141,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano1037", 256, TRUE);
 	OutputLine(NULL, "　そのあとは、それぞれの役割を持った村人たちが、各々に肉を解体して美味しく頂いたって考えられてるわね。",
-		   NULL, "Acredita-se que, depois disso, os aldeões, cada um com uma função diferente, desmancharam a carne pedaço por pedaço e se fartaram dela.", Line_WaitForInput);
+		   NULL, "Acredita-se que, depois disso, os aldeões, cada um com uma função diferente, desmancham a carne pedaço por pedaço e se fartam dela.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano1038", 256, TRUE);
 	OutputLine(NULL, "…くすくす。」",
 		   NULL, " ...Heehee.\"", GetGlobalFlag(GLinemodeSp));
@@ -6888,7 +6889,7 @@ void main()
 		   NULL, "\"...Era assim que as coisas eram..", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano1054", 256, TRUE);
 	OutputLine(NULL, "どういうわけか、なかなか死なないらしいのよ。",
-		   NULL, " Aparentemente, por algum motivo, eles não morriam tão facilmente..", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Aparentemente, por algum motivo, eles não morriam tão facilmente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
