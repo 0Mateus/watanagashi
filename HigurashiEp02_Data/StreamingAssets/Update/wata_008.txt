@@ -6851,7 +6851,7 @@ void main()
 //　...医者のなんとかほど恐ろしいものはないと言うが......本当のようだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…医者のなんとかほど恐ろしいものはないと言うが……本当のようだ。",
-		   NULL, "...Dizem que nada pode assustar um doutor...... Eu acho que é verdade.", Line_Normal);
+		   NULL, "...Dizem que nada pode assustar um médico...... Eu acho que é verdade.", Line_Normal);
 	ClearMessage();
 //	DisableWindow();
 
