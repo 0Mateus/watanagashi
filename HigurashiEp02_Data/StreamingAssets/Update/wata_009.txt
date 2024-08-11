@@ -133,7 +133,7 @@ void main()
 
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200072", 256, TRUE);
 	OutputLine(NULL, "　あれ？",
-		   NULL, " 		   NULL, " Hã?", Line_WaitForInput);?", Line_WaitForInput);
+		   NULL, " Hã?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200073", 256, TRUE);
 	OutputLine(NULL, "　圭一くん、目が真っ赤だよ？",
 		   NULL, " Keiichi-kun, seus olhos estão vermelhos!", Line_WaitForInput);
@@ -3340,7 +3340,7 @@ void main()
 		   NULL, " De forma alguma, de forma alguma.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi1008", 256, TRUE);
 	OutputLine(NULL, "園崎魅音さんが継ぐのはそんなチンケなヤクザ組織だけじゃありません。",
-		   NULL, " Uma coisa tão chata como um velho grupo de yakuza não é única coisa que Sonozaki Mion-san vai herdar.", Line_WaitForInput);
+		   NULL, " Uma coisa tão chata como um velho grupo de yakuza não é a única coisa que Sonozaki Mion-san vai herdar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi1009", 256, TRUE);
 	OutputLine(NULL, "彼女が継ぐのは園崎家そのものですよ。",
 		   NULL, " Ela vai herdar a própria família Sonozaki. ", GetGlobalFlag(GLinemodeSp));
