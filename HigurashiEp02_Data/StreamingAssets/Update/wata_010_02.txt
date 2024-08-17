@@ -933,7 +933,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600339", 256, TRUE);
 	OutputLine(NULL, "「知らないんですか？！",
-		   NULL, "\"Você naõ sabe?!", Line_WaitForInput);
+		   NULL, "\"Você não sabe?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600340", 256, TRUE);
 	OutputLine(NULL, "　戦争中にフランスの地下組織なんかがやった典型的なゲリラ活動ですよ。",
 		   NULL, " É praticamente a tática de guerrilha por excelência. Foi usada por organizações clandestinas na França durante a Segunda Guerra Mundial.", Line_WaitForInput);
