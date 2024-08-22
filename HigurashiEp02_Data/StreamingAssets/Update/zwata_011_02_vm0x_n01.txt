@@ -26,7 +26,8 @@ void dialog003()
 		   NULL, "\"Não havia nada de tão terrível lá que faria você ficar em silêncio?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700285", 256, TRUE);
 	OutputLine(NULL, "不審な木箱やコンテナが山積みされてませんでしたか？」",
-		   NULL, " Não havia caixas de madeira ou recipientes de forma suspeita?\"", GetGlobalFlag(GLinemodeSp));
+		   //NULL, " Não havia caixas de madeira ou recipientes de forma suspeita?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Não havia caixas de madeira ou recipientes suspeitos?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 
