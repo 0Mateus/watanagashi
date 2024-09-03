@@ -3265,7 +3265,7 @@ void main()
 //　...それに「詩音」は「間違いない」と答えたのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それに「詩音」は「間違いない」と答えたのだ。",
-		   NULL, "...'Shion', em resposta, tinha dito que 'não há muita dúvida.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...'Shion', em resposta, tinha dito que \"não há muita dúvida.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......それが意味する......残酷さ.........￥
