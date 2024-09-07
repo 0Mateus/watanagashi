@@ -80,7 +80,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700390", 256, TRUE);
 	OutputLine(NULL, "「くれぐれも注意して下さい。",
-		   NULL, "\"Tenham muito cuidado, por favor?", Line_WaitForInput);
+		   NULL, "\"Tenham muito cuidado, por favor.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700391", 256, TRUE);
 	OutputLine(NULL, "今さら信じないでしょうが、…できることならあなたたちに犠牲になって欲しくないんですから。」",
 		   NULL, " Vocês provavelmente não vão acreditar nisso agora... mas eu não quero que vocês dois terminem sendo sacrificados, se possível.\"", GetGlobalFlag(GLinemodeSp));
@@ -3268,7 +3268,7 @@ void main()
 	ModPlayVoiceLS(4, 3, "org/mion1026", 256, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "「宗平は中国大陸に出兵し、ハルピンで食料倉庫の管理をしていたと言い、撤退時に上官や仲間たちと共謀して、軍の缶詰をごっそりと盗み出していたのでした。",
-		   NULL, "\"Sohei disse que havia depósitos de alimentos em Harbin, depois de ter sido enviado para o China continental. Quando chegou a hora de ir embora, ele conspirou com seus superiores e companheiros e roubou uma grande quantidade de produtos enlatados do exército. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Sohei disse que havia depósitos de alimentos em Harbin, depois de ter sido enviado para a China continental. Quando chegou a hora de ir embora, ele conspirou com seus superiores e companheiros e roubou uma grande quantidade de produtos enlatados do exército. ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion1027", 256, TRUE);
