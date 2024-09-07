@@ -531,7 +531,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "org/rika1902", 256, TRUE);
 	OutputLine(NULL, "「……魅ぃにお買い物代を借りたことをコロリと忘れてしまったら、",
-		   //NULL, "\"......Quando, uma vez, eu me esqueci completamente de devolver o Jogo da Vida que eu tinha pego emprestado dela, ", Line_WaitForInput);
+		   //NULL, "\"......Quando, uma vez, eu me esqueci completamente de devolver o Jogo da Vida que eu tinha pego emprestado dela, ", GetGlobalFlag(GLinemodeSp));
 		   NULL, "\"......Quando, uma vez, eu me esqueci completamente de devolver uma quantia de dinheiro que ela me emprestou para fazer compras, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "org/rika1903", 256, TRUE);

@@ -196,7 +196,7 @@ void main()
 		   NULL, "\"...Esse não é um lugar no qual deveríamos entrar, certo?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi1043", 256, TRUE);
 	OutputLine(NULL, "　やめようぜ！",
-		   NULL, " É melhor não fazer isso!", Line_Continue);
+		   NULL, " É melhor não fazer isso!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi1044", 256, TRUE);
 	OutputLine(NULL, "　カギが掛かっているのを勝手に開けて押し入るなんて、例え物を盗まなくったって犯罪なんだぞ！！",
 		   NULL, " É crime forçar o seu caminho num prédio trancado, mesmo se você não roubar nada!! ", GetGlobalFlag(GLinemodeSp));
