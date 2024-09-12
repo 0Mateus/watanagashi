@@ -170,7 +170,7 @@ void main()
 	OutputLine(NULL, "「課長〜。",
 		   NULL, "\"Chefe~", Line_Continue);
 	OutputLine(NULL, "ナゾナゾやってるんじゃないですよ？",
-		   NULL, " Não comece a falar em enigmas comigo, certo.", Line_WaitForInput);
+		   NULL, " Não comece a falar em enigmas comigo, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700170", 256, TRUE);
 	OutputLine(NULL, "　死んだ２人を含む４人が綿流しの晩に祭具殿と呼ばれる禁断の蔵に無断で入り込み、それを何者かが見ていた！",
 		   NULL, " Nós temos testemunhas dizendo que quatro pessoas, incluindo as duas que morreram, foram ao saiguden proibido sem autorização! ", GetGlobalFlag(GLinemodeSp));
