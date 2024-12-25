@@ -160,7 +160,7 @@ void dialog010()
 	OutputLine(NULL, "「小さい女の子だけじゃなくて、その道の割と大きな男の子にも人気があるんだって？",
 		   NULL, "\"Não é só popular entre as garotas, também é surpreendentemente bem recebido pelos garotos mais velhos, não é?", Line_WaitForInput);
 	OutputLine(NULL, "…圭ちゃんもその一人だったとはねぇ〜。」",
-		   NULL, " ...E pensar que kei-chan era um desses~.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...E pensar que Kei-chan era um desses~.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
