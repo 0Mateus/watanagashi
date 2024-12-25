@@ -4297,7 +4297,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Pai de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992600019", 256, TRUE);
 	OutputLine(NULL, "「すみませ〜ん、セットのデザートがまだ来ないんですけど〜。」",
-		   NULL, "\"Com licença~, a sobremesa que acompanha a refeição ainda ainda não chegou~.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Com licença~, a sobremesa que acompanha a refeição ainda não chegou~.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
